@@ -128,7 +128,7 @@ function changeActiveClass(lastIndex, newIndex) {
 }
 
 function changeCover(songIndex) {
-    cover.src = "./img/" + songList[songIndex].img;
+    cover.src = "../assets/img/" + songList[songIndex].img;
 }
 
 function changeSongTitle(songIndex) {
